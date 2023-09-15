@@ -1,0 +1,83 @@
+
+.screen{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(to bottom right, #1d1e1d, #ffffff);
+}
+
+
+
+.p-login{
+  color: #000;
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  a {
+    color: #ffff;
+    text-decoration: underline;
+  }
+
+  p {
+    color: #000;
+  }
+
+.login {
+    width: 420px;
+        padding: 30px;
+        border-radius: 5px;
+        background: linear-gradient(to bottom right, #ffffff, #f2f2f2);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        height: 420px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #000;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+
+        label {
+            display: inline-block;
+          width: 300px;
+          text-align: left;
+          margin-right: 20px;
+          color: #000;
+        }
+
+        input {
+            margin-top: 12px;
+            margin-right: 0px;
+            padding: 10px;
+            padding-right: 5px;
+            padding-left: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px;
+            background: black;
+            color: #f2f2f2;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-bottom: 10px;
+        }
+    }
+}
